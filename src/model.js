@@ -1,7 +1,11 @@
+import image from "./assets/image.png"
 export const model = [
     {
         type: 'title',
-        value: 'Hello world from JS'
+        value: 'Hello world from JS',
+        options: {
+
+        }
     },
     {
         type: 'text',
@@ -17,6 +21,6 @@ export const model = [
     },
     {
         type: 'image',
-        value: './assets/image.png'
+        value: image
     }
 ]
