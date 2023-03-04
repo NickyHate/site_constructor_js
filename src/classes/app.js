@@ -1,4 +1,3 @@
-import {model} from "../model";
 import {Site} from "./site";
 import {Sidebar} from "./sidebar";
 
