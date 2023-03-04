@@ -1,9 +1,6 @@
 import {model} from "./model";
+import {App} from "./classes/app";
 import './styles/main.css';
 
-const $site = document.querySelector('#site')
-
-model.map(block => {
-    $site.insertAdjacentHTML('beforeend', block.toHTML())
-})
+new App(model).init()
 
